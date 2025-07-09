@@ -18,7 +18,9 @@ connectDB();
 const app = express();
 app.use(
   cors({
-    origin: ["http://localhost:3000"], // Adjust for your frontend's URL
+    origin: ["http://localhost:3000",
+      "https://new-vyavarclient-3f1f.vercel.app",
+      "https://new-vyavarserver.onrender.com"], // Adjust for your frontend's URL
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
