@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node seeder.js",
     "build": "react-scripts build",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
