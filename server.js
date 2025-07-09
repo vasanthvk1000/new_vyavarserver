@@ -25,10 +25,6 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
-app.use(cors({
-  origin: allowedOrigins,
-  credentials: true,
-}));
 // https://vyavar.vercel.app
 app.use(express.json());
 
